@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px; 
+  }
+.section1-heading h1
+{
+color: var(--theme-primary, #FFB30E);
+font-family: Qwigley;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 96px */
+display: inline-block;
+margin-top: 20px;
+}
+
+ .section1-image1
+{
+  
+margin-top: 10px;
+float:center;
+position: absolute;
+top:7%;
+right:17%;
+transform: translate(-50%, -50%); 
+}
+
+.section1-image2
+{
+    
+margin-top: 10px;
+float:right;
+position: absolute;
+top:7%;
+right:2%;
+transform: translate(-50%, -50%); 
+
+} 
+.section2{
+    margin: 0;
+    background-color:  #FDBE35;
+    width: 1315px;
+    height: 332px;
+    top: 101px;
+    left: 1px;
+
+
+}
+.section2-heading{
+    margin: 0;
+    color:white;
+    font-family: Qwigley;
+    font-size: 100px;
+    width: 519px;
+    height: 88px;
+    position: absolute;
+    top: 130px;
+    left: 122px;
+    
+}
+.section2-para{
+    margin: 0;
+    color: #504F4F;
+
+
+font-family: Source Sans 3;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+left: 122px;
+top: 205px;
+
+}
+
+.section2-boxeffect{
+    margin:0;
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 8px;
+    background: var(--theme-white, #FFF);
+    position:absolute;
+    top:45%;
+    left:10%;
+   
+}
+
+.section3{
+    margin: 0;
+}
+.row{
+margin: 0;
+}
+
+.section4-heading h2{
+ 
+color: #F17228;
+text-align: center;
+font-family: Source Sans 3;
+font-size: 43px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.section4{
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(18, 20, 20, 0.5);
+}
+
+.section4-img1 p{
+
+font-family: Source Sans 3;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+
+.section5{
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(231, 120, 29, 0.5);
+}
+.section6-right{
+    float:right;
+}
+
+.section7.row{
+    margin-left: 100px;
+}
+
